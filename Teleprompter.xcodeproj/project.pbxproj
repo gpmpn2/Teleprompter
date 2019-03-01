@@ -1,0 +1,591 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 50;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		608CE64022298F520014085C /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 608CE63F22298F520014085C /* AppDelegate.swift */; };
+		608CE64222298F520014085C /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 608CE64122298F520014085C /* ViewController.swift */; };
+		608CE64522298F520014085C /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 608CE64322298F520014085C /* Main.storyboard */; };
+		608CE64722298F540014085C /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 608CE64622298F540014085C /* Assets.xcassets */; };
+		608CE64A22298F540014085C /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 608CE64822298F540014085C /* LaunchScreen.storyboard */; };
+		608CE65522298F540014085C /* TeleprompterTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 608CE65422298F540014085C /* TeleprompterTests.swift */; };
+		608CE66022298F540014085C /* TeleprompterUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 608CE65F22298F540014085C /* TeleprompterUITests.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		608CE65122298F540014085C /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 608CE63422298F520014085C /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 608CE63B22298F520014085C;
+			remoteInfo = Teleprompter;
+		};
+		608CE65C22298F540014085C /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 608CE63422298F520014085C /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 608CE63B22298F520014085C;
+			remoteInfo = Teleprompter;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		608CE63C22298F520014085C /* Teleprompter.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Teleprompter.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		608CE63F22298F520014085C /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		608CE64122298F520014085C /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		608CE64422298F520014085C /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		608CE64622298F540014085C /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		608CE64922298F540014085C /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		608CE64B22298F540014085C /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		608CE65022298F540014085C /* TeleprompterTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = TeleprompterTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		608CE65422298F540014085C /* TeleprompterTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TeleprompterTests.swift; sourceTree = "<group>"; };
+		608CE65622298F540014085C /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		608CE65B22298F540014085C /* TeleprompterUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = TeleprompterUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		608CE65F22298F540014085C /* TeleprompterUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TeleprompterUITests.swift; sourceTree = "<group>"; };
+		608CE66122298F540014085C /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		608CE63922298F520014085C /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		608CE64D22298F540014085C /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		608CE65822298F540014085C /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		608CE63322298F520014085C = {
+			isa = PBXGroup;
+			children = (
+				608CE63E22298F520014085C /* Teleprompter */,
+				608CE65322298F540014085C /* TeleprompterTests */,
+				608CE65E22298F540014085C /* TeleprompterUITests */,
+				608CE63D22298F520014085C /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		608CE63D22298F520014085C /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				608CE63C22298F520014085C /* Teleprompter.app */,
+				608CE65022298F540014085C /* TeleprompterTests.xctest */,
+				608CE65B22298F540014085C /* TeleprompterUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		608CE63E22298F520014085C /* Teleprompter */ = {
+			isa = PBXGroup;
+			children = (
+				608CE63F22298F520014085C /* AppDelegate.swift */,
+				608CE64122298F520014085C /* ViewController.swift */,
+				608CE64322298F520014085C /* Main.storyboard */,
+				608CE64622298F540014085C /* Assets.xcassets */,
+				608CE64822298F540014085C /* LaunchScreen.storyboard */,
+				608CE64B22298F540014085C /* Info.plist */,
+			);
+			path = Teleprompter;
+			sourceTree = "<group>";
+		};
+		608CE65322298F540014085C /* TeleprompterTests */ = {
+			isa = PBXGroup;
+			children = (
+				608CE65422298F540014085C /* TeleprompterTests.swift */,
+				608CE65622298F540014085C /* Info.plist */,
+			);
+			path = TeleprompterTests;
+			sourceTree = "<group>";
+		};
+		608CE65E22298F540014085C /* TeleprompterUITests */ = {
+			isa = PBXGroup;
+			children = (
+				608CE65F22298F540014085C /* TeleprompterUITests.swift */,
+				608CE66122298F540014085C /* Info.plist */,
+			);
+			path = TeleprompterUITests;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		608CE63B22298F520014085C /* Teleprompter */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 608CE66422298F540014085C /* Build configuration list for PBXNativeTarget "Teleprompter" */;
+			buildPhases = (
+				608CE63822298F520014085C /* Sources */,
+				608CE63922298F520014085C /* Frameworks */,
+				608CE63A22298F520014085C /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = Teleprompter;
+			productName = Teleprompter;
+			productReference = 608CE63C22298F520014085C /* Teleprompter.app */;
+			productType = "com.apple.product-type.application";
+		};
+		608CE64F22298F540014085C /* TeleprompterTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 608CE66722298F540014085C /* Build configuration list for PBXNativeTarget "TeleprompterTests" */;
+			buildPhases = (
+				608CE64C22298F540014085C /* Sources */,
+				608CE64D22298F540014085C /* Frameworks */,
+				608CE64E22298F540014085C /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				608CE65222298F540014085C /* PBXTargetDependency */,
+			);
+			name = TeleprompterTests;
+			productName = TeleprompterTests;
+			productReference = 608CE65022298F540014085C /* TeleprompterTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		608CE65A22298F540014085C /* TeleprompterUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 608CE66A22298F540014085C /* Build configuration list for PBXNativeTarget "TeleprompterUITests" */;
+			buildPhases = (
+				608CE65722298F540014085C /* Sources */,
+				608CE65822298F540014085C /* Frameworks */,
+				608CE65922298F540014085C /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				608CE65D22298F540014085C /* PBXTargetDependency */,
+			);
+			name = TeleprompterUITests;
+			productName = TeleprompterUITests;
+			productReference = 608CE65B22298F540014085C /* TeleprompterUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		608CE63422298F520014085C /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 1010;
+				LastUpgradeCheck = 1010;
+				ORGANIZATIONNAME = "Grant Maloney";
+				TargetAttributes = {
+					608CE63B22298F520014085C = {
+						CreatedOnToolsVersion = 10.1;
+					};
+					608CE64F22298F540014085C = {
+						CreatedOnToolsVersion = 10.1;
+						TestTargetID = 608CE63B22298F520014085C;
+					};
+					608CE65A22298F540014085C = {
+						CreatedOnToolsVersion = 10.1;
+						TestTargetID = 608CE63B22298F520014085C;
+					};
+				};
+			};
+			buildConfigurationList = 608CE63722298F520014085C /* Build configuration list for PBXProject "Teleprompter" */;
+			compatibilityVersion = "Xcode 9.3";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 608CE63322298F520014085C;
+			productRefGroup = 608CE63D22298F520014085C /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				608CE63B22298F520014085C /* Teleprompter */,
+				608CE64F22298F540014085C /* TeleprompterTests */,
+				608CE65A22298F540014085C /* TeleprompterUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		608CE63A22298F520014085C /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				608CE64A22298F540014085C /* LaunchScreen.storyboard in Resources */,
+				608CE64722298F540014085C /* Assets.xcassets in Resources */,
+				608CE64522298F520014085C /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		608CE64E22298F540014085C /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		608CE65922298F540014085C /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		608CE63822298F520014085C /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				608CE64222298F520014085C /* ViewController.swift in Sources */,
+				608CE64022298F520014085C /* AppDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		608CE64C22298F540014085C /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				608CE65522298F540014085C /* TeleprompterTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		608CE65722298F540014085C /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				608CE66022298F540014085C /* TeleprompterUITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		608CE65222298F540014085C /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 608CE63B22298F520014085C /* Teleprompter */;
+			targetProxy = 608CE65122298F540014085C /* PBXContainerItemProxy */;
+		};
+		608CE65D22298F540014085C /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 608CE63B22298F520014085C /* Teleprompter */;
+			targetProxy = 608CE65C22298F540014085C /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		608CE64322298F520014085C /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				608CE64422298F520014085C /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		608CE64822298F540014085C /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				608CE64922298F540014085C /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		608CE66222298F540014085C /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 12.1;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		608CE66322298F540014085C /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 12.1;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		608CE66522298F540014085C /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 4FNJNUQ3AD;
+				INFOPLIST_FILE = Teleprompter/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = gpmpn2.Teleprompter;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.2;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		608CE66622298F540014085C /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 4FNJNUQ3AD;
+				INFOPLIST_FILE = Teleprompter/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = gpmpn2.Teleprompter;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.2;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		608CE66822298F540014085C /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 4FNJNUQ3AD;
+				INFOPLIST_FILE = TeleprompterTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = gpmpn2.TeleprompterTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.2;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Teleprompter.app/Teleprompter";
+			};
+			name = Debug;
+		};
+		608CE66922298F540014085C /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 4FNJNUQ3AD;
+				INFOPLIST_FILE = TeleprompterTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = gpmpn2.TeleprompterTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.2;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Teleprompter.app/Teleprompter";
+			};
+			name = Release;
+		};
+		608CE66B22298F540014085C /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 4FNJNUQ3AD;
+				INFOPLIST_FILE = TeleprompterUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = gpmpn2.TeleprompterUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.2;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = Teleprompter;
+			};
+			name = Debug;
+		};
+		608CE66C22298F540014085C /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 4FNJNUQ3AD;
+				INFOPLIST_FILE = TeleprompterUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = gpmpn2.TeleprompterUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.2;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = Teleprompter;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		608CE63722298F520014085C /* Build configuration list for PBXProject "Teleprompter" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				608CE66222298F540014085C /* Debug */,
+				608CE66322298F540014085C /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		608CE66422298F540014085C /* Build configuration list for PBXNativeTarget "Teleprompter" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				608CE66522298F540014085C /* Debug */,
+				608CE66622298F540014085C /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		608CE66722298F540014085C /* Build configuration list for PBXNativeTarget "TeleprompterTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				608CE66822298F540014085C /* Debug */,
+				608CE66922298F540014085C /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		608CE66A22298F540014085C /* Build configuration list for PBXNativeTarget "TeleprompterUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				608CE66B22298F540014085C /* Debug */,
+				608CE66C22298F540014085C /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 608CE63422298F520014085C /* Project object */;
+}
